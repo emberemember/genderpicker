@@ -1,0 +1,153 @@
+/* layout*/
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.backGradient {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(rgba(87,80,109,1), rgba(22,17,37,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.spacing {
+  width: 620px;
+  height: 471px;
+  background: url("../images/v28_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 180px;
+  left: 410px;
+  overflow: hidden;
+}
+/*form*/
+.formBG {
+  width: 620px;
+  height: 471px;
+  background: rgba(21,16,37,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.formTitle {
+  width: 176px;
+  color: rgba(212,215,224,0.800000011920929);
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-family: Avenir Next;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+/*buttons*/
+.nextButton {
+  width: 96px;
+  height: 36px;
+  background: rgba(63,122,93,0.800000011920929);
+  opacity: 1;
+  position: absolute;
+  top: 411px;
+  left: 488px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.nextText {
+  width: 45px;
+  color: rgba(233,235,246,1);
+  position: absolute;
+  top: 418px;
+  left: 514px;
+  font-family: Avenir Next;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.backButton {
+  width: 96px;
+  height: 36px;
+  background: rgba(114,111,225,0.800000011920929);
+  opacity: 1;
+  position: absolute;
+  top: 411px;
+  left: 36px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.backText {
+  width: 42px;
+  color: rgba(233,235,246,1);
+  position: absolute;
+  top: 418px;
+  left: 63px;
+  font-family: Avenir Next;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.genderBox {
+  width: 283px;
+  height: 48px;
+  background: rgba(146,153,171,0.699999988079071);
+  opacity: 0.15;
+  position: absolute;
+  top: 327px;
+  left: 168px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  overflow: hidden;
+}
+.genderText {
+  width: 255px;
+  color: rgba(233,235,246,1);
+  position: absolute;
+  top: 341px;
+  left: 185px;
+  font-family: Avenir Next;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+/*color picker*/
+.ColorPicker {
+  top: 63px;
+  left: 180px;
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;  
+}
+/*textstyles*/
+#values {
+  font-family: Avenir Next;
+  font-weight: Regular;
+  line-height: 150%;
+}
